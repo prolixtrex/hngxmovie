@@ -1,0 +1,27 @@
+.banner div {
+    height: 600px;
+    width: 100vw;
+    position: relative;
+}
+
+.banner div img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner div .details {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.banner div button {
+    max-width: 150px;
+    padding: 10px;
+    border-radius: 7px;
+}
